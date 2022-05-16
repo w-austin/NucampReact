@@ -10,7 +10,7 @@ const DisplayList = () => {
     <Row>
       {items.map((item, idx) => {
         return (
-          <Col md ClassName="m-1" key={idx}>
+          <Col md className="m-1" key={idx}>
             <DisplayCard item={item} />
           </Col>
         );
