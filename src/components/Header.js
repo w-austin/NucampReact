@@ -23,7 +23,7 @@ const Header = () => {
         <Nav className="ms-auto" navbar>
           <NavItem>
             <NavLink className="nav-link" to="/">
-              <i class="fa fa-home fa-lg" /> Home
+              <i className="fa fa-home fa-lg" /> Home
             </NavLink>
           </NavItem>
           <NavItem>
