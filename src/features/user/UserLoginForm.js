@@ -54,7 +54,11 @@ const UserLoginForm = () => {
       <Modal isOpen={loginModalOpen}>
         <ModalHeader toggle={() => setLoginModalOpen(false)}></ModalHeader>
         <ModalBody>
-          <Formik initalValues={{ username: "", password: "" }} onSubmit={handleLogin} validate={validateUserLoginForm}>
+          <Formik
+            initialValues={{ username: "", password: "" }}
+            onSubmit={handleLogin}
+            validate={validateUserLoginForm}
+          >
             <Form>
               <FormGroup>
                 <Label htmlFor="username">Username</Label>
